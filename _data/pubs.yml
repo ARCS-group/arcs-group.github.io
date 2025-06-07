@@ -148,6 +148,7 @@
 - key: YanAAAI25
   title: Multi-agent Motion Planning for Differential Drive Robots Through Stationary State Search
   authors: [Jingtian Yan, Jiaoyang Li]
+  thumbnail: /files/jingtianyan/aaai25_mass/featured.png
   venue: AAAI
   pages: null
   year: 2025
@@ -161,6 +162,8 @@
   links:
     arXiv: https://www.arxiv.org/abs/2412.13359
     Code: https://github.com/JingtianYan/MASS-AAAI
+  abstract: "Multi-Agent Motion Planning (MAMP) finds various applications in fields such as traffic management, airport operations, and warehouse automation. In many of these environments, differential drive robots are commonly used. These robots have a kinodynamic model that allows only in-place rotation and movement along their current orientation, subject to speed and acceleration limits. However, existing Multi-Agent Path Finding (MAPF)-based methods often use simplified models for robot kinodynamics, which limits their practicality and realism. In this paper, we introduce a three-level framework called MASS to address these challenges. MASS combines MAPF-based methods with our proposed stationary state search planner to generate high-quality kinodynamically-feasible plans. We further extend MASS using an adaptive window mechanism to address the lifelong MAMP problem. Empirically, we tested our methods on the single-shot grid map domain and the lifelong warehouse domain. Our method shows up to 400% improvements in terms of throughput compared to existing methods."
+  
 
 - key: VeerapaneniAAAI25
   title: Windowed MAPF with Completeness Guarantees
@@ -351,6 +354,7 @@
 - key: YanRAL24
   title: "Multi-Agent Motion Planning With Bézier Curve Optimization Under Kinodynamic Constraints"
   authors: [Jingtian Yan, Jiaoyang Li]
+  thumbnail: /files/jingtianyan/ral24_psb/featured.gif
   venue: RAL
   volume: 9,
   number: 3,
@@ -359,7 +363,9 @@
   doi: 10.1109/LRA.2024.3363543
   tags: [mapf, traffic]
   links:
+    arXiv: https://arxiv.org/abs/2311.14145
     Code: https://github.com/JingtianYan/PSB-RAL
+  abstract: "Multi-Agent Motion Planning (MAMP) is a problem that seeks collision-free dynamically-feasible trajectories for multiple moving agents in a known environment while minimizing their travel time. MAMP is closely related to the well-studied Multi-Agent Path-Finding (MAPF) problem. Recently, MAPF methods have achieved great success in finding collision-free paths for a substantial number of agents. However, those methods often overlook the kinodynamic constraints of the agents, assuming instantaneous movement, which limits their practicality and realism. In this paper, we present a three-level MAPF-based planner called PSB to address the challenges posed by MAMP. PSB fully considers the kinodynamic capability of the agents and produces solutions with smooth speed profiles that can be directly executed by the controller. Empirically, we evaluate PSB within the domains of traffic intersection coordination for autonomous vehicles and obstacle-rich grid map navigation for mobile robots. PSB shows up to 49.79% improvements in solution cost compared to existing methods."
 
 - key: SuAAAI24
   title: "Bidirectional Temporal Plan Graph: Enabling Switchable Passing Orders for More Efficient Multi-Agent Path Finding Plan Execution"

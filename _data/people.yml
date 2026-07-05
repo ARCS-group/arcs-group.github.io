@@ -29,17 +29,6 @@
     His research interests span multi-robot task and motion planning, robotic manipulation, statistical learning, and computer vision. 
     He works to harness insights from established planning algorithms to address messy real-world challenges in manipulation.
 
-- name: Rishi Veerapaneni
-  role: phd
-  webpage: https://rishi-v.github.io/
-  enrollment: RI PhD, Fall 2020
-  headshot: /photos/members/rishiveerapaneni.png
-  bio: Rishi works with Professors Maxim Likhachev and Jiaoyang Li in the Robotics Institute at CMU and is supported by the NSF Graduate Research Fellowship. 
-    His specific research interest is in (1) designing better heuristic search algorithms, 
-    (2) multi-agent motion planning and coordination (e.g. MAPF), and 
-    (3) combining search with machine learning. 
-    Previously, he double majored in EECS and Applied Math at UC Berkeley and was very active in teaching (EE16A, CS188, CS170 x2).
-
 - name: Jingtian Yan
   role: phd
   webpage: https://jingtianyan.github.io/
@@ -106,6 +95,15 @@
   webpage: https://yifansu1301.github.io/
   enrollment: CS undergraduate, Class 2025
   headshot: /photos/members/yifansu.jpg
+
+- name: Rishi Veerapaneni
+  role: alumnus
+  webpage: https://rishi-v.github.io/
+  enrollment: RI PhD, 2020-2026, now Research Scientist at Boston Dynamics
+  headshot: /photos/members/rishiveerapaneni.png
+  bio: Rishi was co-advised with Professors Maxim Likhachev and Jiaoyang Li in the Robotics Institute at CMU and was supported by the NSF Graduate Research Fellowship. 
+    His PhD work focused on scalable methods for long-horizon multi-agent motion planning leveraging the strenghts of search-based planning and machine learning.
+    His work on scalable imitation learning combined with search received the Best Multi-Agent Systems Paper and Best Student Paper awards at ICRA 2025.
 
 - name: Yutong Wang
   role: alumnus

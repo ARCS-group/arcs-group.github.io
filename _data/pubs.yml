@@ -116,7 +116,7 @@
   number: null
   pages: null
   year: 2026
-  thumbnail: null  # Save to /files/[your-folder]/
+  thumbnail: /files/rishiveerapaneni/thumbnails/2025_cbs_protocol.gif
   award: null
   doi: null        # doi is shown in bibtex and used as the link to the publisher site when the publisher field is not defined
   publisher: null  # link to the publisher; we don't need this if the publisher can be reached by https://doi.org/[doi]
@@ -162,7 +162,7 @@
   venue: AAAI
   pages: 29687-29695
   year: 2026
-  thumbnail: null  # Save to /files/[your-folder]/
+  thumbnail: /files/rishiveerapaneni/thumbnails/2025_btpg-max.png
   award: Oral
   doi: 10.1609/aaai.v40i35.40213        # doi is shown in bibtex and used as the link to the publisher site when the publisher field is not defined
   publisher: null  # link to the publisher; we don't need this if the publisher can be reached by https://doi.org/[doi]
@@ -182,7 +182,7 @@
   venue: AAAI
   pages: 29911-29920
   year: 2026
-  thumbnail: null  # Save to /files/[your-folder]/
+  thumbnail: /files/rishiveerapaneni/thumbnails/2025_dag_ecbs.png
   award: Oral
   doi: 10.1609/aaai.v40i35.40238        # doi is shown in bibtex and used as the link to the publisher site when the publisher field is not defined
   publisher: null  # link to the publisher; we don't need this if the publisher can be reached by https://doi.org/[doi]
@@ -366,7 +366,7 @@
   venue: SoCS
   pages: 196-200
   year: 2025
-  thumbnail: null  # Save to /files/[your-folder]/
+  thumbnail: /files/rishiveerapaneni/thumbnails/2025_real_time_lacam.png
   doi: 10.1609/socs.v18i1.35993
   tags: [mapf]
   links:   # You can add additional links not listed below
@@ -456,10 +456,12 @@
   venue: ICRA
   pages: 10229-10236
   year: 2025
+  thumbnail: /files/rishiveerapaneni/thumbnails/2024_work_smarter.gif
   doi: 10.1109/ICRA55743.2025.11128836        # doi is shown in bibtex and used as the link to the publisher site when the publisher field is not defined
   tags: [mapf-policy]
   links:
     arXiv: https://arxiv.org/abs/2409.14491
+  abstract: "Multi-Agent Path Finding (MAPF) is the problem of effectively finding efficient collision-free paths for a group of agents in a shared workspace. The MAPF community has largely focused on developing high-performance heuristic search methods. Recently, several works have applied various machine learning (ML) techniques to solve MAPF, usually involving sophisticated architectures, reinforcement learning techniques, and set-ups, but none using large amounts of high-quality supervised data. Our initial objective in this work was to show how simple large scale imitation learning of high-quality heuristic search methods can lead to state-of-the-art ML MAPF performance. However, we find that, at least with our model architecture, simple large scale (700k examples with hundreds of agents per example) imitation learning does not produce impressive results. Instead, we find that by using prior work that post-processes MAPF model predictions to resolve 1-step collisions (CS-PIBT), we can train a simple ML MAPF model in minutes that dramatically outperforms existing ML MAPF policies. This has serious implications for all future ML MAPF policies (with local communication) which currently struggle to scale. In particular, this finding implies that future learnt policies should (1) always use smart 1-step collision shields (e.g. CS-PIBT), (2) always include the collision shield with greedy actions as a baseline (e.g. PIBT) and (3) motivates future models to focus on longer horizon / more complex planning as 1-step collisions can be efficiently resolved."
 
 - key: ShaoulICLR25
   title: Multi-Robot Motion Planning with Diffusion Models
@@ -542,11 +544,12 @@
   venue: AAAI
   pages: 23323-23332
   year: 2025
+  thumbnail: /files/rishiveerapaneni/thumbnails/2024_winc_mapf.png
   doi: 10.1609/aaai.v39i22.34499
   tags: [mapf]
   links:
     arXiv: https://arxiv.org/abs/2410.01798
-
+  abstract: "Traditional multi-agent path finding (MAPF) methods try to compute entire collision free start-goal paths, with several algorithms offering completeness guarantees. However, computing partial paths offers significant advantages including faster planning, adaptability to changes, and enabling decentralized planning. Methods that compute partial paths employ a windowed approach and only try to find collision free paths for a limited timestep horizon. While this improves flexibility, this adaptation introduces incompleteness; all existing windowed approaches can become stuck in deadlock or livelock. Our main contribution is to introduce our framework, WinC-MAPF, for Windowed MAPF that enables completeness. Our framework leverages heuristic update insights from single-agent real-time heuristic search algorithms and agent independence ideas from MAPF algorithms. We also develop Single-Step Conflict Based Search (SS-CBS), an instantiation of this framework using a novel modification to CBS. We show how SS-CBS, which only plans a single step and updates heuristics, can effectively solve tough scenarios where existing windowed approaches fail."
 
 - key: WangAAAI25
   title: "LNS2+RL: Combining Multi-agent Reinforcement Learning with Large Neighborhood Search in Multi-agent Path Finding"
@@ -560,6 +563,31 @@
   award: Oral
   links:
     arXiv: https://arxiv.org/abs/2405.17794
+
+- key: VeerapaneniICAPS25
+  title: "Towards Unstructured MAPF: Multi-Quadruped MAPF Demo"
+  authors: [Rishi Veerapaneni, Nikhil Sobanbabu, Guanya Shi, Jiaoyang Li, Maxim Likhachev]
+  equal_contributions: [Rishi Veerapaneni, Nikhil Sobanbabu]
+  venue: ICAPS
+  year: 2025
+  thumbnail: /files/rishiveerapaneni/thumbnails/2025_quadruped_mapf_demo.png
+  tags: [mapf, execution]
+  links:
+    PDF: https://icaps25.icaps-conference.org/program/demos-pdfs/ICAPS25-Demo_paper_8.pdf
+    Demo: https://youtu.be/ihVPEsN58t0
+  abstract: "Multi-Agent Path Finding (MAPF) in its most broad perspective focuses on finding collision free paths for general teams of agents in a shared environment. Theoretically, MAPF methods could solve a variety of multi-agent problems. However, MAPF research primarily focuses on simplified warehouse domains, i.e., gridworld with discrete spaces, discrete timesteps, and point-mass agents without kinematic constraints. Thus, the perception of MAPF is tied closely to gridworld and its assumptions, which limits its attractiveness to more broad domains. However, there are several ways to extend MAPF methods past these classical assumptions. To this end, our demo shows how MAPF techniques can be used to plan for a team of quadrupeds. Our system plans in continuous space, in continuous time, with realistic footprints, and incorporates dynamics constraints."
+
+- key: Gandotra25
+  title: Anytime Single-Step MAPF Planning with Anytime PIBT
+  authors: [Nayesha Gandotra, Rishi Veerapaneni, Muhammad Suhail Saleem, Daniel Harabor, Jiaoyang Li, Maxim Likhachev]
+  venue: arXiv
+  year: 2025
+  eprint: arXiv:2504.07841
+  thumbnail: /files/rishiveerapaneni/thumbnails/2025_anytime_pibt.png
+  tags: [mapf]
+  links:
+    arXiv: https://arxiv.org/abs/2504.07841
+  abstract: PIBT is a popular Multi-Agent Path Finding (MAPF) method at the core of many state-of-the-art MAPF methods including LaCAM, CS-PIBT, and WPPL. The main utility of PIBT is that it is a very fast and effective single-step MAPF solver and can return a collision-free single-step solution for hundreds of agents in less than a millisecond. However, the main drawback of PIBT is that it is extremely greedy in respect to its priorities and thus leads to poor solution quality. Additionally, PIBT cannot use all the planning time that might be available to it and returns the first solution it finds. We thus develop Anytime PIBT, which quickly finds a one-step solution identically to PIBT but then continuously improves the solution in an anytime manner. We prove that Anytime PIBT converges to the optimal solution given sufficient time. We experimentally validate that Anytime PIBT can rapidly improve single-step solution quality within milliseconds and even find the optimal single-step action. However, we interestingly find that improving the single-step solution quality does not have a significant effect on full-horizon solution costs.
 
 ############### 2024 ##################
 - key: ZhangIJCAI24
@@ -618,7 +646,7 @@
   authors: [Yorai Shaoul, Rishi Veerapaneni, Maxim Likhachev, Jiaoyang Li]
   equal_contributions: [Yorai Shaoul, Rishi Veerapaneni]
   venue: SoCS
-  pages: 109--117
+  pages: 109-117
   year: 2024
   doi: 10.1609/socs.v17i1.31548
   tags: [arm, mamp]
@@ -663,10 +691,12 @@
   venue: ICAPS
   pages: 623-632
   year: 2024
+  thumbnail: /files/rishiveerapaneni/thumbnails/2024_mapf_3d_warehouse.jpg
   doi: 10.1609/icaps.v34i1.31525
   tags: [warehouse, mapf]
   links:
     Benchmark page: http://mapf.info/index.php/Main/Benchmarks
+  abstract: "Recent works have made significant progress in multi-agent path finding (MAPF), with modern methods being able to scale to hundreds of agents, handle unexpected delays, work in groups, etc. The vast majority of these methods have focused on 2D grid world domains. However, modern warehouses often utilize multi-agent robotic systems that can move in 3D, enabling dense storage but resulting in a more complex multi-agent planning problem. Motivated by this, we introduce and experimentally analyze the application of MAPF to 3D warehouse management, and release the first open-source 3D MAPF dataset. We benchmark two state-of-the-art MAPF methods, EECBS and MAPF-LNS2, and show how different hyper-parameters affect these methods across various 3D MAPF problems. We also investigate how the warehouse structure itself affects MAPF performance. Based on our experimental analysis, we find that a fast low-level search is critical for 3D MAPF, EECBS's suboptimality significantly changes the effect of certain CBS techniques, and certain warehouse designs can noticeably influence MAPF scalability and speed. An additional important observation is that, overall, the tested 2D MAPF techniques scaled well to 3D warehouses and demonstrate how the MAPF community's progress in 2D can generalize to 3D warehouses."
 
 - key: VeerapaneniICAPS24
   title: "Improving Learnt Local MAPF Policies with Heuristic Search"
@@ -675,10 +705,12 @@
   venue: ICAPS
   pages: 597-606
   year: 2024
+  thumbnail: /files/rishiveerapaneni/thumbnails/2024_improving_mapf_search.png
   doi: 10.1609/icaps.v34i1.31522
   tags: [mapf-policy]
   links:
     arXiv: https://arxiv.org/abs/2403.20300
+  abstract: "Multi-agent path finding (MAPF) is the problem of finding collision-free paths for a team of agents to reach their goal locations. State-of-the-art classical MAPF solvers typically employ heuristic search to find solutions for hundreds of agents but are typically centralized and can struggle to scale when run with short timeouts. Machine learning (ML) approaches that learn policies for each agent are appealing as these could enable decentralized systems and scale well while maintaining good solution quality. Current ML approaches to MAPF have proposed methods that have started to scratch the surface of this potential. However, state-of-the-art ML approaches produce local policies that only plan for a single timestep and have poor success rates and scalability. Our main idea is that we can improve a ML local policy by using heuristic search methods on the output probability distribution to resolve deadlocks and enable full horizon planning. We show several model-agnostic ways to use heuristic search with learnt policies that significantly improve the policies' success rates and scalability. To our best knowledge, we demonstrate the first time ML-based MAPF approaches have scaled to high congestion scenarios (e.g. 20% agent density)."
 
 - key: ShaoulICAPS24
   title: "Accelerating Search-Based Planning for Multi-Robot Manipulation by Leveraging Online-Generated Experiences"
@@ -738,6 +770,7 @@
     arXiv: https://arxiv.org/abs/2401.00315
     Code: https://github.com/YifanSu1301/BTPG
     Talk: https://underline.io/lecture/92560-bidirectional-temporal-plan-graph-enabling-switchable-passing-orders-for-more-efficient-multi-agent-path-finding-plan-execution
+  abstract: "The Multi-Agent Path Finding (MAPF) problem involves planning collision-free paths for multiple agents in a shared environment. The majority of MAPF solvers rely on the assumption that an agent can arrive at a specific location at a specific timestep. However, real-world execution uncertainties can cause agents to deviate from this assumption, leading to collisions and deadlocks. Prior research solves this problem by having agents follow a Temporal Plan Graph (TPG), enforcing a consistent passing order at every location as defined in the MAPF plan. However, we show that TPGs are overly strict because, in some circumstances, satisfying the passing order requires agents to wait unnecessarily, leading to longer execution time. To overcome this issue, we introduce a new graphical representation called a Bidirectional Temporal Plan Graph (BTPG), which allows switching passing orders during execution to avoid unnecessary waiting time. We design two anytime algorithms for constructing a BTPG: BTPG-naive and BTPG-optimized. Experimental results show that following BTPGs consistently outperforms following TPGs, reducing unnecessary waits by 8-20%."
 
 - key: ChenAAAI24
   title: "Traffic Flow Optimisation for Lifelong Multi-Agent Path Finding"
@@ -751,6 +784,17 @@
     arXiv: https://arxiv.org/abs/2308.11234
     Code: https://github.com/nobodyczcz/Guided-PIBT
 
+- key: Wu24
+  title: "From Space-Time to Space-Order: Directly Planning a Temporal Planning Graph by Redefining CBS"
+  authors: [Yu Wu, Rishi Veerapaneni, Jiaoyang Li, Maxim Likhachev]
+  venue: arXiv
+  year: 2024
+  eprint: arXiv:2404.15137
+  thumbnail: /files/rishiveerapaneni/thumbnails/2024_space_order_cbs.png
+  tags: [mapf, execution]
+  links:
+    arXiv: https://arxiv.org/abs/2404.15137
+  abstract: The majority of multi-agent path finding (MAPF) methods compute collision-free space-time paths which require agents to be at a specific location at a specific discretized timestep. However, executing these space-time paths directly on robotic systems is infeasible due to real-time execution differences (e.g. delays) which can lead to collisions. To combat this, current methods translate the space-time paths into a temporal plan graph (TPG) that only requires that agents observe the order in which they navigate through locations where their paths cross. However, planning space-time paths and then post-processing them into a TPG does not reduce the required agent-to-agent coordination, which is fixed once the space-time paths are computed. To that end, we propose a novel algorithm Space-Order CBS that can directly plan a TPG and explicitly minimize coordination. Our main theoretical insight is our novel perspective on viewing a TPG as a set of space-visitation order paths where agents visit locations in relative orders (e.g. 1st vs 2nd) as opposed to specific timesteps. We redefine unique conflicts and constraints for adapting CBS for space-order planning. We experimentally validate how Space-Order CBS can return TPGs which significantly reduce coordination, thus subsequently reducing the amount of agent-agent communication and leading to more robustness to delays during execution.
 
 ############### 2023 ##################
 - key: ZhangNeurIPS23

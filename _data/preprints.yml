@@ -16,21 +16,6 @@
 #  abstract: null
 
 
-- key: Jiang2026MDPIBT
-  title: "Planning over MAPF Agent Dependencies via Multi-Dependency PIBT"
-  # site: https://yulunzhang.net/publication/zhang2026mggo/
-  authors: [Zixiang Jiang, Yulun Zhang, Rishi Veerapaneni, Jiaoyang Li]
-  equal_contributions: [Zixiang Jiang, Yulun Zhang, Rishi Veerapaneni]
-  venue: arXiv
-  year: 2026
-  thumbnail: /files/yulunzhang/thumbnails/simple_bigagents_MDPIBT.gif
-  eprint: arXiv:2603.23405
-  tags: [mapf, warehouse]
-  links:
-    arXiv: https://arxiv.org/abs/2603.23405
-  abstract: "Modern Multi-Agent Path Finding (MAPF) algorithms must plan for hundreds to thousands of agents in congested environments within a second, requiring highly efficient algorithms. Priority Inheritance with Backtracking (PIBT) is a popular algorithm capable of effectively planning in such situations. However, PIBT is constrained by its rule-based planning procedure and lacks generality because it restricts its search to paths that conflict with at most one other agent. This limitation also applies to Enhanced PIBT (EPIBT), a recent extension of PIBT. In this paper, we describe a new perspective on solving MAPF by planning over agent dependencies. Taking inspiration from PIBT's priority inheritance logic, we define the concept of agent dependencies and propose Multi-Dependency PIBT (MD-PIBT) that searches over agent dependencies. MD-PIBT is a general framework where specific parameterizations can reproduce PIBT and EPIBT. At the same time, alternative configurations yield novel planning strategies that are not expressible by PIBT or EPIBT. Our experiments demonstrate that MD-PIBT effectively plans for as many as 10,000 homogeneous agents under various kinodynamic constraints, including pebble motion, rotation motion, and differential drive robots with speed and acceleration limits. We perform thorough evaluations on different variants of MAPF and find that MD-PIBT is particularly effective in MAPF with large agents."
-
-
 - key: Zhang2026MGGO
   title: "Optimization of Edge Directions and Weights for Mixed Guidance Graphs in Lifelong Multi-Agent Path Finding"
   site: https://yulunzhang.net/publication/zhang2026mggo/

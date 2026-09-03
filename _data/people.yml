@@ -59,16 +59,15 @@
     
 - name: He Jiang
   preferred_name: He (Rivers) Jiang
-  role: masters
+  role: phd
   webpage: https://github.com/DiligentPanda
-  enrollment: Master of Science in Robotics, Class 2025
+  enrollment: RI PhD, Fall 2026
   headshot: /photos/members/hejiang.jpg
-  bio: He Jiang received a Bachelor's degree in Computer Science and Engineering from Shanghai Jiaotong University in 2017 
-    and another Master's degree in Control Science and Engineering from Tsinghua University in 2020. 
-    Then he worked for more than 1 year at Hangzhou High-Tech Zone (Binjiang), China. 
-    He is interested in planning and his current research focuses on Multi-Agent Systems. 
-    Hopefully, he can enjoy his days at CMU and do some meaningful work.  
-    He is also interested in Soccer, Poker, Chinese Chess & Nintendo Switch, by the way.
+  bio: He Jiang received a Bachelor's degree in Computer Science and Engineering from Shanghai Jiaotong University 
+    and a Master's degree in Control Science and Engineering from Tsinghua University. 
+    He was previously an MSR student at ARCS lab (graduated at 2025) working on large-scale search and learning for lifelong multi-agent path finding.
+    His current research extends to search and learning for more general multi-agent collaboration problems.
+    He is also interested in Soccer, Poker, Chinese Chess & Nintendo Switch.
     
 - name: Mehul Menon
   role: masters

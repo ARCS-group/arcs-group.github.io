@@ -16,21 +16,6 @@
 #  abstract: null
 
 
-- key: Jiang2026MDPIBT
-  title: "Planning over MAPF Agent Dependencies via Multi-Dependency PIBT"
-  # site: https://yulunzhang.net/publication/zhang2026mggo/
-  authors: [Zixiang Jiang, Yulun Zhang, Rishi Veerapaneni, Jiaoyang Li]
-  equal_contributions: [Zixiang Jiang, Yulun Zhang, Rishi Veerapaneni]
-  venue: arXiv
-  year: 2026
-  thumbnail: /files/yulunzhang/thumbnails/simple_bigagents_MDPIBT.gif
-  eprint: arXiv:2603.23405
-  tags: [mapf, warehouse]
-  links:
-    arXiv: https://arxiv.org/abs/2603.23405
-  abstract: "Modern Multi-Agent Path Finding (MAPF) algorithms must plan for hundreds to thousands of agents in congested environments within a second, requiring highly efficient algorithms. Priority Inheritance with Backtracking (PIBT) is a popular algorithm capable of effectively planning in such situations. However, PIBT is constrained by its rule-based planning procedure and lacks generality because it restricts its search to paths that conflict with at most one other agent. This limitation also applies to Enhanced PIBT (EPIBT), a recent extension of PIBT. In this paper, we describe a new perspective on solving MAPF by planning over agent dependencies. Taking inspiration from PIBT's priority inheritance logic, we define the concept of agent dependencies and propose Multi-Dependency PIBT (MD-PIBT) that searches over agent dependencies. MD-PIBT is a general framework where specific parameterizations can reproduce PIBT and EPIBT. At the same time, alternative configurations yield novel planning strategies that are not expressible by PIBT or EPIBT. Our experiments demonstrate that MD-PIBT effectively plans for as many as 10,000 homogeneous agents under various kinodynamic constraints, including pebble motion, rotation motion, and differential drive robots with speed and acceleration limits. We perform thorough evaluations on different variants of MAPF and find that MD-PIBT is particularly effective in MAPF with large agents."
-
-
 - key: Zhang2026MGGO
   title: "Optimization of Edge Directions and Weights for Mixed Guidance Graphs in Lifelong Multi-Agent Path Finding"
   site: https://yulunzhang.net/publication/zhang2026mggo/
@@ -59,4 +44,17 @@
     arXiv: https://arxiv.org/abs/2602.15721
     Code: https://github.com/smart-mapf/lifelong-smart
   abstract: "We present Lifelong Scalable Multi-Agent Realistic Testbed (LSMART), an open-source simulator to evaluate any Multi-Agent Path Finding (MAPF) algorithm in a Fleet Management System (FMS) with Automated Guided Vehicles (AGVs). MAPF aims to move a group of agents from their corresponding starting locations to their goals. Lifelong MAPF (LMAPF) is a variant of MAPF that continuously assigns new goals for agents to reach. LMAPF applications, such as autonomous warehouses, often require a centralized, lifelong system to coordinate the movement of a fleet of robots, typically AGVs. However, existing works on MAPF and LMAPF often assume simplified kinodynamic models, such as pebble motion, as well as perfect execution and communication for AGVs. Prior work has presented SMART, a software capable of evaluating any MAPF algorithms while considering agent kinodynamics, communication delays, and execution uncertainties. However, SMART is designed for MAPF, not LMAPF. Generalizing SMART to an FMS requires many more design choices. First, an FMS parallelizes planning and execution, raising the question of when to plan. Second, given planners with varying optimality and differing agent-model assumptions, one must decide how to plan. Third, when the planner fails to return valid solutions, the system must determine how to recover. In this paper, we first present LSMART, an open-source simulator that incorporates all these considerations to evaluate any MAPF algorithms in an FMS. We then provide experiment results based on state-of-the-art methods for each design choice, offering guidance on how to effectively design centralized lifelong AGV Fleet Management Systems. LSMART is available at this https URL."
+
+
+- key: Luo2026SRA
+  title: "Stress-Relief Annealing: Polynomial-Time Simulation-Free Layout Optimization for Automated Warehouses"
+  authors: [Xiangjie Luo, Yulun Zhang, Miyuki Koshimura, Makoto Yokoo, Jiaoyang Li]
+  venue: arXiv
+  year: 2026
+  thumbnail: /files/yulunzhang/thumbnails/sra.png
+  eprint: arXiv:2608.01024
+  tags: [warehouse, envopt]
+  links:
+    arXiv: https://arxiv.org/abs/2608.01024
+  abstract: "We study the problem of optimizing physical layouts for automated warehouses, where hundreds to thousands of robots are coordinated to transport packages. Previous works have shown that optimizing the warehouse layout (e.g., the physical location of the storage shelves) significantly improves throughput. However, state-of-the-art layout optimization approaches are based on evolutionary optimization methods, which treat the entire warehouse as a black box and rely on random mutation to search for high-quality layouts. While the optimization outcomes are promising, these methods require a massive number of simulations to evaluate candidate solutions, making them sample-inefficient. In this paper, we present Stress-Relief Annealing (SRA), a polynomial-time simulation-free layout optimization algorithm. SRA turns the task demand into a per-vertex stress field that predicts where traffic will concentrate in the warehouse; the field's peak provably caps the throughput. Our experimental results show that (1) SRA improves both the throughput and the scalability of a human-designed warehouse, roughly doubling the number of robots it can sustain, (2) it matches or exceeds the throughput of the evolutionary baselines while taking only 19 minutes on one CPU core, against their 25,000 simulations and 25 hours on a 64-core machine, and (3) the gain generalizes across different Multi-Agent Path Finding algorithms, non-uniform task demands, and a warehouse with doubled dimensions."
 

@@ -10,6 +10,18 @@
     She is interested in a variety of topics related to Artificial Intelligence and optimization, 
     such as combinatorial algorithms, heuristic search, scheduling and planning for robotics and transportation.
 
+- name: Kallol Saha
+  role: phd
+  webpage: https://kallol-saha.github.io/
+  enrollment: RI PhD, Fall 2026
+  headshot: /photos/members/kallolsaha.jpg
+  bio: Kallol received a B.Tech in Mechatronics from Manipal Institute of Technology in 2023 
+    and an M.S. in Robotics from Carnegie Mellon University in 2026. 
+    His research interests lie in combining learning and planning for long-horizon multi-robot manipulation tasks 
+    that require interacting with multiple objects in the environment. 
+    He aims to build generalist agents that reason about the effects of their actions, while continually learning
+    from prior experience to improvise, improve, and adapt in real time.
+
 - name: Philip Huang
   role: phd
   webpage: https://philip-huang.github.io/

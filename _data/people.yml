@@ -31,6 +31,30 @@
     His research interests include multi-robot collaboration, task and motion planning, and machine learning. 
     A long-term goal of his research is to develop algorithms that 
     enable individual robots and robot teams to accomplish complex and long-horizon tasks in dynamic and uncertain environments.
+   
+- name: He Jiang
+  preferred_name: He (Rivers) Jiang
+  role: phd
+  webpage: https://github.com/DiligentPanda
+  enrollment: RI PhD, Fall 2026
+  headshot: /photos/members/hejiang.jpg
+  bio: He Jiang received a Bachelor's degree in Computer Science and Engineering from Shanghai Jiaotong University 
+    and a Master's degree in Control Science and Engineering from Tsinghua University. 
+    He was previously an MSR student at the ARCS Lab (graduated in 2025), working on large-scale search and learning for lifelong multi-agent path finding.
+    His current research extends to search and learning for more general multi-agent collaboration problems.
+    He is also interested in Soccer, Poker, Chinese Chess & Nintendo Switch.
+
+- name: Kallol Saha
+  role: phd
+  webpage: https://kallol-saha.github.io/
+  enrollment: RI PhD, Fall 2026
+  headshot: /photos/members/kallolsaha.jpg
+  bio: Kallol received a B.Tech in Mechatronics from Manipal Institute of Technology in 2023 
+    and an M.S. in Robotics from Carnegie Mellon University in 2026. 
+    His research interests lie in combining learning and planning for long-horizon multi-robot manipulation tasks 
+    that require interacting with multiple objects in the environment. 
+    He aims to build generalist agents that reason about the effects of their actions, while continually learning
+    from prior experience to improvise, improve, and adapt in real time.
 
 - name: Yorai Shaoul
   role: phd
@@ -69,19 +93,6 @@
     His research interests include traditional and learning-based approaches to multi-robot planning and cooperative task planning.
     His goal is to coordinate mobile robots to complete complex tasks faster and more effectively than a single robot could.
     
-- name: He Jiang
-  preferred_name: He (Rivers) Jiang
-  role: masters
-  webpage: https://github.com/DiligentPanda
-  enrollment: Master of Science in Robotics, Class 2025
-  headshot: /photos/members/hejiang.jpg
-  bio: He Jiang received a Bachelor's degree in Computer Science and Engineering from Shanghai Jiaotong University in 2017 
-    and another Master's degree in Control Science and Engineering from Tsinghua University in 2020. 
-    Then he worked for more than 1 year at Hangzhou High-Tech Zone (Binjiang), China. 
-    He is interested in planning and his current research focuses on Multi-Agent Systems. 
-    Hopefully, he can enjoy his days at CMU and do some meaningful work.  
-    He is also interested in Soccer, Poker, Chinese Chess & Nintendo Switch, by the way.
-    
 - name: Mehul Menon
   role: masters
   webpage: https://sites.google.com/view/mehulmenon/
@@ -102,11 +113,6 @@
   role: undergrad
   enrollment: CS undergraduate, Class 2025
 
-- name: Yifan Su
-  role: undergraduate student
-  webpage: https://yifansu1301.github.io/
-  enrollment: CS undergraduate, Class 2025
-  headshot: /photos/members/yifansu.jpg
 
 - name: Rishi Veerapaneni
   role: alumnus
@@ -136,6 +142,12 @@
   role: alumnus
   enrollment: CS undergraduate, 2022-2023
 
+- name: Yifan Su
+  role: alumnus
+  webpage: https://yifansu1301.github.io/
+  enrollment: CS undergraduate, Class 2025
+  headshot: /photos/members/yifansu.jpg
+  
 - name: Yimin Tang
   role: alumnus
   webpage: https://github.com/TachikakaMin

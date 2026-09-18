@@ -31,6 +31,21 @@
 
 ############### 2026 ##################
 
+- key: ShaoulSoCS26
+  title: "Embodying Multi-Hand Manipulation Policies by Searching the Assignment and Null Spaces"
+  site: https://omcbsa.github.io/
+  authors: [Yorai Shaoul, Jiaoyang Li, Maxim Likhachev]
+  venue: SoCS
+  pages: 246-250
+  year: 2026
+  doi: 10.1609/socs.v19i1.43096
+  thumbnail: /files/yoraishaoul/omcbsa.gif
+  eprint: arXiv:2607.22020
+  tags: [arm, mamp]
+  links:
+    arXiv: https://arxiv.org/abs/2607.22020
+  abstract: "Learned manipulation policies increasingly predict motions for abstract “hands” and are attractive in practice because they rely on easily collected demonstrations and transfer across robot platforms. Executing these trajectories on multi-arm robots, however, is not trivial. Multi-hand policy outputs must be assigned to physical arms, each arm must realize a configuration-space motion that tracks its prescribed end-effector trajectory, and all arms must respect kinematic limits and avoid collisions. In the absence of algorithms that directly address this problem, practitioners typically extend single-arm inverse-kinematics (IK) pipelines in an ad hoc way, with no guarantees of feasibility or safety. In this work, we close this execution gap with a search-based framework that is theoretically complete for grounding policy-generated multi-hand trajectories onto physical multi-arm systems. Building on Conflict-Based Search, our method explicitly searches over both the discrete assignment of trajectories to arms and the continuous Jacobian null spaces of redundant manipulators, using redundancy to avoid inter-arm collisions while tracking the prescribed motions. This unified treatment of assignment and null-space motion yields a practically efficient planner that safely realizes coordinated manipulation-policy outputs on multi-arm robots. See omcbsa.github.io for more."
+
 - key: Jiang2026MDPIBT
   title: "Planning over MAPF Agent Dependencies via Multi-Dependency PIBT"
   site: https://yulunzhang.net/publication/zhang2026mggo/

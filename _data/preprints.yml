@@ -14,6 +14,19 @@
 #  links:     # You can add additional links not listed below
 #    arXiv: null
 #  abstract: null
+- key: Yan2026ExecTimeNet
+  title: "From Discrete Plans to Real-World Execution: A World-Model-Driven Framework for Execution-Aware Multi-Agent Path Finding"
+  site: https://jingtianyan.github.io/publication/2026-06-21-exectimenet
+  authors: [Jingtian Yan, Shuai Zhou, He Jiang, Stephen F. Smith, Jiaoyang Li]
+  venue: arXiv
+  year: 2026
+  eprint: arXiv:2511.21886
+  thumbnail: /files/jingtianyan/preprint_execTimeNet/execTimeNet-overview.png
+  tags: [mapf, execution]
+  links:
+    arXiv: https://arxiv.org/abs/2511.21886
+  abstract: "Multi-Agent Path Finding (MAPF) studies how to coordinate multiple agents to reach their goals without collisions and underpins a range of large-scale robotic systems, including automated warehousing and manufacturing. Recent advances enable MAPF solvers to compute high-quality plans for hundreds of agents. However, these plans are generated using simplified robot models with discretized time and action spaces. When they are deployed in physical systems, heterogeneous robot dynamics, asynchronous interactions, communication delays, and other real-world factors can lead to substantial deviations from planned performance. We bridge the gap between discrete planning and real-world execution through ExecTimeNet, a learned world model of MAPF execution that predicts how a discrete MAPF solution will unfold on physical robots, mapping each discrete action to its realized execution state, including its wall-clock completion time and the kinodynamic state in which it ends. Building on this capability, we first propose REMAP, an execution-aware MAPF framework that integrates execution-time estimation into planning, guiding the search toward MAPF solutions with improved execution performance. We also introduce ESADG, a post-planning optimization procedure that optimizes the execution schedule of a given MAPF solution while preserving path feasibility. We evaluate proposed frameworks in high-fidelity simulation with up to 300 agents and on physical robots. In simulation, ExecTimeNet predicts the execution state accurately and transfers to unseen maps and agent counts. Across simulation benchmarks spanning diverse map topologies, REMAP reduces delays by up to 21% over baselines, while ESADG achieves up to 40% normalized improvement. On physical hardware, the full pipeline reduces total execution time by up to 15.3%, demonstrating effective transfer from simulation to real-world deployment."
+
 
 
 - key: Zhang2026MGGO
@@ -57,4 +70,3 @@
   links:
     arXiv: https://arxiv.org/abs/2608.01024
   abstract: "We study the problem of optimizing physical layouts for automated warehouses, where hundreds to thousands of robots are coordinated to transport packages. Previous works have shown that optimizing the warehouse layout (e.g., the physical location of the storage shelves) significantly improves throughput. However, state-of-the-art layout optimization approaches are based on evolutionary optimization methods, which treat the entire warehouse as a black box and rely on random mutation to search for high-quality layouts. While the optimization outcomes are promising, these methods require a massive number of simulations to evaluate candidate solutions, making them sample-inefficient. In this paper, we present Stress-Relief Annealing (SRA), a polynomial-time simulation-free layout optimization algorithm. SRA turns the task demand into a per-vertex stress field that predicts where traffic will concentrate in the warehouse; the field's peak provably caps the throughput. Our experimental results show that (1) SRA improves both the throughput and the scalability of a human-designed warehouse, roughly doubling the number of robots it can sustain, (2) it matches or exceeds the throughput of the evolutionary baselines while taking only 19 minutes on one CPU core, against their 25,000 simulations and 25 hours on a 64-core machine, and (3) the gain generalizes across different Multi-Agent Path Finding algorithms, non-uniform task demands, and a warehouse with doubled dimensions."
-

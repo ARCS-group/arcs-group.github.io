@@ -31,6 +31,39 @@
 
 ############### 2026 ##################
 
+- key: LiuRAM26
+  title: "Prompt-to-Product: Generative Assembly via Bimanual Manipulation [Arts and Robotics]"
+  site: https://prompt2product.github.io/
+  authors: [Ruixuan Liu, Philip Huang, Ava Pun, Kangle Deng, Shobhit Aggarwal, Zhenran Tang, Michelle Liu, Deva Ramanan, Jun-Yan Zhu, Jiaoyang Li, Changliu Liu]
+  equal_contributions: [Ruixuan Liu, Philip Huang]
+  venue: RAM
+  volume: 33
+  number: 3
+  pages: 104-115
+  year: 2026
+  thumbnail: /files/philiphuang/prompt-to-product.png
+  doi: 10.1109/MRA.2026.3693138
+  tags: [arm, mamp]
+  links:
+    arXiv: https://arxiv.org/abs/2508.21063
+    PDF: https://arxiv.org/pdf/2508.21063
+    Video: https://youtu.be/F1cG9U48noc
+  abstract: "Creating assembly products demands significant manual effort and expert knowledge in designing the assembly and constructing the product. Prompt-to-Product is an automated pipeline that generates real-world assembly products from natural-language prompts. It uses LEGO bricks as the assembly platform, generates physically buildable brick designs from user requirements, and constructs the resulting products with a bimanual robotic system. A user study shows that the system lowers the barrier to turning imaginative ideas into physical assemblies."
+
+- key: HuangIROS26VAMPMR
+  title: "VAMP-MR: Vector-Accelerated Motion Planning and Execution for Multi-Robot-Arms"
+  site: https://vamp-mr.github.io/vamp-mr/
+  authors: [Philip Huang, Chenrui Gao, Jiaoyang Li]
+  venue: IROS
+  year: 2026
+  thumbnail: /files/philiphuang/vamp-mr.png
+  tags: [arm, mamp]
+  links:
+    arXiv: https://arxiv.org/abs/2607.13478
+    PDF: https://arxiv.org/pdf/2607.13478
+    Code: https://github.com/vamp-mr/vamp-mr
+  abstract: "We introduce multi-robot-arm motion planners that combine classical planning algorithms with CPU SIMD vectorized collision checking. The resulting motion validation accelerates planning and execution postprocessing by up to two orders of magnitude across multi-arm manipulation tasks. The implementation is publicly available."
+
 - key: sanjay2026MRRD
   title: "Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments"
   site: https://vaibhavsanjay.github.io/MRRD-Website/

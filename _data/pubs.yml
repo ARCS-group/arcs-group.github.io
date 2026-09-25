@@ -32,7 +32,7 @@
 ############### 2026 ##################
 
 - key: LiuRAM26
-  title: "Prompt-to-Product: Generative Assembly via Bimanual Manipulation [Arts and Robotics]"
+  title: "Prompt-to-Product: Generative Assembly via Bimanual Manipulation"
   site: https://prompt2product.github.io/
   authors: [Ruixuan Liu, Philip Huang, Ava Pun, Kangle Deng, Shobhit Aggarwal, Zhenran Tang, Michelle Liu, Deva Ramanan, Jun-Yan Zhu, Jiaoyang Li, Changliu Liu]
   equal_contributions: [Ruixuan Liu, Philip Huang]

@@ -31,6 +31,39 @@
 
 ############### 2026 ##################
 
+- key: LiuRAM26
+  title: "Prompt-to-Product: Generative Assembly via Bimanual Manipulation"
+  site: https://prompt2product.github.io/
+  authors: [Ruixuan Liu, Philip Huang, Ava Pun, Kangle Deng, Shobhit Aggarwal, Zhenran Tang, Michelle Liu, Deva Ramanan, Jun-Yan Zhu, Jiaoyang Li, Changliu Liu]
+  equal_contributions: [Ruixuan Liu, Philip Huang]
+  venue: RAM
+  volume: 33
+  number: 3
+  pages: 104-115
+  year: 2026
+  thumbnail: /files/philiphuang/prompt-to-product.gif
+  doi: 10.1109/MRA.2026.3693138
+  tags: [arm, mamp]
+  links:
+    arXiv: https://arxiv.org/abs/2508.21063
+    PDF: https://arxiv.org/pdf/2508.21063
+    Video: https://youtu.be/F1cG9U48noc
+  abstract: "Creating assembly products demands significant manual effort and expert knowledge in 1) designing the assembly and 2) constructing the product. This paper introduces Prompt-to-Product, an automated pipeline that generates real-world assembly products from natural language prompts. Specifically, we leverage LEGO bricks as the assembly platform and automate the process of creating brick assembly structures. Given the user design requirements, Prompt-to-Product generates physically buildable brick designs, and then leverages a bimanual robotic system to construct the real assembly products, bringing user imaginations into the real world. We conduct a comprehensive user study, and the results demonstrate that Prompt-to-Product significantly lowers the barrier and reduces manual effort in creating assembly products from imaginative ideas."
+
+- key: HuangIROS26VAMPMR
+  title: "VAMP-MR: Vector-Accelerated Motion Planning and Execution for Multi-Robot-Arms"
+  site: https://vamp-mr.github.io/vamp-mr/
+  authors: [Philip Huang, Chenrui Gao, Jiaoyang Li]
+  venue: IROS
+  year: 2026
+  thumbnail: /files/philiphuang/vamp-mr.gif
+  tags: [arm, mamp]
+  links:
+    arXiv: https://arxiv.org/abs/2607.13478
+    PDF: https://arxiv.org/pdf/2607.13478
+    Code: https://github.com/vamp-mr/vamp-mr
+  abstract: "Multi-robot-arm motion planning is a key challenge in deploying multiple manipulators for industrial tasks such as manufacturing. Existing search-based and sampling-based solvers often require significant computation time to produce collision-free, high-quality motions suitable for safe real-world execution. In this work, we introduce a new suite of multi-robot-arm motion planners capable of near real-time motion generation, combining classical planning algorithms with state-of-the-art vectorized collision-checking techniques. Based on CPU SIMD instructions, our new planners accelerate their primary bottleneck, collision checking, and achieve up to two orders of magnitude speedup in both motion planning and execution postprocessing for multi-arm manipulation tasks. We also release our implementation to lower the barrier for research and development of multi-robot-arm planning and manipulation problems. Code is available at https://vamp-mr.github.io/vamp-mr"
+
 - key: sanjay2026MRRD
   title: "Diffusion for Long-Horizon Multi-Robot Path Planning in Human-Shared Environments"
   site: https://vaibhavsanjay.github.io/MRRD-Website/

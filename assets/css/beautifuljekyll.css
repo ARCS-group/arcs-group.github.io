@@ -1169,15 +1169,18 @@ pre {
 .pub-thumbnail {
   flex: 0 0 120px;
 
-  img {
+  img,
+  video {
     width: 100%;
     height: auto;
     border: 1px solid #eceff3;
     border-radius: 8px;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: block;
   }
 
-  img:hover {
+  img:hover,
+  video:hover {
     transform: translateY(-1px);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   }

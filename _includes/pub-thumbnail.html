@@ -8,10 +8,18 @@
     <!-- Left Column - Thumbnail -->
     <div class="pub-thumbnail">
       <a href="{{ pub_link }}">
-        <img src="{{ pub.thumbnail | default: '/assets/img/robot-red.png' }}"
-             alt="{{ pub.title }} thumbnail"
-             loading="lazy"
-             decoding="async">
+        {% assign thumbnail = pub.thumbnail | default: '/assets/img/robot-red.png' %}
+        {% if thumbnail contains '.mp4' or thumbnail contains '.webm' %}
+          <video autoplay loop muted playsinline preload="metadata"
+                 aria-label="{{ pub.title }} thumbnail">
+            <source src="{{ thumbnail }}">
+          </video>
+        {% else %}
+          <img src="{{ thumbnail }}"
+               alt="{{ pub.title }} thumbnail"
+               loading="lazy"
+               decoding="async">
+        {% endif %}
       </a>
     </div>
 

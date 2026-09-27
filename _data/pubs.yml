@@ -31,6 +31,22 @@
 
 ############### 2026 ##################
 
+- key: ZhouIROS26
+  title: "LAMP: Long-Horizon Adaptive Manipulation Planning for Multi-Robot Collaboration in Cluttered Space"
+  site: https://multi-robot-lamp.github.io/
+  authors: [Shuai Zhou, Yorai Shaoul, Jiaoyang Li]
+  venue: IROS
+  year: 2026
+  thumbnail: https://raw.githubusercontent.com/ShuaiZhou302/ShuaiZhou302.github.io/main/images/teaser.mp4
+  eprint: arXiv:2606.29358
+  tags: [mamp]
+  links:
+    Project: https://multi-robot-lamp.github.io/
+    arXiv: https://arxiv.org/abs/2606.29358
+    Code: https://github.com/ShuaiZhou302/LAMP
+  abstract: >-
+    Multi-robot manipulation requires jointly reasoning about contact formations, robot motions under coupled dynamics, and collision avoidance. Systematically searching over this large space is difficult and becomes increasingly intractable as the number of robots grows, the task horizon lengthens, or the scene becomes more cluttered. Existing approaches therefore either learn to solve the problem end-to-end via reinforcement learning or restrict planning to a simpler surrogate problem, such as planning object motions while learning short-horizon contact primitives. However, neither paradigm scales to the problem instances we target: long-horizon multi-robot manipulation in extremely dense environments. We propose a Long-horizon Adaptive Manipulation Planning (LAMP) framework with two planners that enable tractable search over the full coupled space by combining a learned generative manipulation model: an LAMP-A* planner that systematically searches over the coupled object-robot space, and LAMP-Lazy, a lazy planner that enables real-time replanning through deferred evaluation. Experiments in challenging simulated environments demonstrate that our approach solves complex long-horizon tasks in highly cluttered environments that prior methods cannot handle.
+
 - key: LiuRAM26
   title: "Prompt-to-Product: Generative Assembly via Bimanual Manipulation"
   site: https://prompt2product.github.io/

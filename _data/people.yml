@@ -109,11 +109,6 @@
   bio: Vaibhav received Bachelor's degrees in Computer Science and Mathematics from the University of Maryland, College 
     Park in 2025. His research interests are in multi-agent robotics, reinforcement learning, and diffusion models.
 
-- name: Cheng Qian
-  role: undergrad
-  enrollment: CS undergraduate, Class 2025
-
-
 - name: Rishi Veerapaneni
   role: alumnus
   webpage: https://rishi-v.github.io/
@@ -131,22 +126,6 @@
   bio: Yutong received a B.Sc. from Shanghai University in 2020 and an M.Sc. from National University of Singapore in 2021. 
     She is currently a third-year PhD student at National University of Singapore and began visiting Carnegie Mellon University in January 2024. 
     Her research interests include Multi-Agent Reinforcement Learning, Multi-Agent Path Finding and Multi-Robot Coordination.
-
-- name: Ying Feng
-  role: alumnus
-  webpage: https://www.linkedin.com/in/yinggggfeng
-  enrollment: CS undergraduate, 2022-2023, now PhD student at MIT
-  headshot: /photos/members/yingfeng.jpeg
-
-- name: Adittyo Paul
-  role: alumnus
-  enrollment: CS undergraduate, 2022-2023
-
-- name: Yifan Su
-  role: alumnus
-  webpage: https://yifansu1301.github.io/
-  enrollment: CS undergraduate, Class 2025
-  headshot: /photos/members/yifansu.jpg
   
 - name: Yimin Tang
   role: alumnus
@@ -158,16 +137,3 @@
     His research is now focused on Multi-Agent Reinforcement Learning and Multi-Agent Path Finding. 
     He also participated in some publications related to grasping and human-computer interaction in ICRA and CHI. 
     He is familiar with traditional data structures and algorithms and has several prizes in NOIP, NOI, and ICPC.
-
-- name: Fangji Wang
-  role: alumnus
-  enrollment: Visiting undergraduate student from Mechanical Engineering at Tsinghua University, 2023
-
-- name: Hongzhi Zang
-  role: alumnus
-  enrollment: Visiting undergraduate student from Computer Science at Tsinghua University, 2024
-
-- name: Shuai Zhou
-  role: alumnus
-  webpage: https://www.shuai-zhou.com/
-  enrollment: Visiting undergraduate student from Robotics Engineering at South China University of Technology, 2025

@@ -31,6 +31,35 @@
 
 ############### 2026 ##################
 
+- key: HeRSS26
+  title: "Model-Based Diffusion Optimal Control for Multi-Robot Motion Planning"
+  site: https://hhhhzl.github.io/generative-dynamics/research/mdoc/
+  authors: [Zhilin He, Yorai Shaoul, Jiaoyang Li]
+  venue: RSS
+  year: 2026
+  doi: 10.15607/RSS.2026.XXII.041
+  thumbnail: /files/zhilinhe/mdoc-thumbnail.gif
+  tags: [mapf, mamp]
+  links:
+    Project: https://hhhhzl.github.io/generative-dynamics/research/mdoc/
+    arXiv: https://arxiv.org/abs/2607.12423
+    PDF: https://arxiv.org/pdf/2607.12423
+    Code: https://github.com/hhhhzl/mdoc
+    Slides: /files/zhilinhe/mdoc-slides.pdf
+    Poster: /files/zhilinhe/mdoc-poster.pdf
+  bib: |
+    @inproceedings{HeRSS26,
+      author = {Zhilin He and Yorai Shaoul and Jiaoyang Li},
+      title = {Model-Based Diffusion Optimal Control for Multi-Robot Motion Planning},
+      booktitle = {Proceedings of Robotics: Science and Systems},
+      year = {2026},
+      address = {Sydney, Australia},
+      month = {July},
+      doi = {10.15607/RSS.2026.XXII.041}
+    }
+  abstract: >-
+    Multi-Robot Motion Planning in continuous environments, where robots must generate dynamically feasible, collision-free trajectories, is challenging due to the combinatorial growth of the joint trajectory space and the difficulty of enforcing dynamic feasibility and hard safety constraints. Recent approaches recast trajectory planning as probabilistic inference, sampling from a posterior over trajectories using diffusion models whose score functions are learned from demonstration data. While showing promising performance, these approaches are limited: they often rely on sizable demonstration datasets and struggle to rigorously enforce dynamics and hard safety constraints during sampling. To this end, we introduce Model-Based Diffusion Optimal Control (MDOC), a model-based diffusion planner that efficiently produces dynamically feasible trajectories without relying on data. Crucially, we show that MDOC's safety mechanism -- combining known dynamics models with Control Barrier Function-constrained projections -- naturally scales to multi-robot planning settings through Conflict-Based Search. Across simulation experiments, this integrated method consistently outperforms representative baseline planners in sample efficiency, geometric smoothness, and success rate, while reducing computation time and producing collision-free trajectories.
+
 - key: ZhouIROS26
   title: "LAMP: Long-Horizon Adaptive Manipulation Planning for Multi-Robot Collaboration in Cluttered Space"
   site: https://multi-robot-lamp.github.io/
